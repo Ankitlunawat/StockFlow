@@ -1,0 +1,104 @@
+{
+  "/api/products/": {
+    "products": [
+      {
+        "id": 1,
+        "sku": "AP-001",
+        "name": "Classic Cotton Shirt",
+        "category": "Shirts",
+        "price": "799.00",
+        "stock": 45,
+        "reorder_level": 10
+      },
+      {
+        "id": 2,
+        "sku": "AP-002",
+        "name": "Linen Summer Shirt",
+        "category": "Shirts",
+        "price": "1299.00",
+        "stock": 8,
+        "reorder_level": 10
+      },
+      {
+        "id": 3,
+        "sku": "AP-003",
+        "name": "Everyday Denim",
+        "category": "Bottoms",
+        "price": "1599.00",
+        "stock": 30,
+        "reorder_level": 10
+      },
+      {
+        "id": 4,
+        "sku": "AP-004",
+        "name": "Relaxed Chino",
+        "category": "Bottoms",
+        "price": "1199.00",
+        "stock": 6,
+        "reorder_level": 10
+      },
+      {
+        "id": 5,
+        "sku": "AP-005",
+        "name": "Essential Polo",
+        "category": "Tops",
+        "price": "699.00",
+        "stock": 64,
+        "reorder_level": 10
+      },
+      {
+        "id": 6,
+        "sku": "AP-006",
+        "name": "Crew Neck Tee",
+        "category": "Tops",
+        "price": "449.00",
+        "stock": 72,
+        "reorder_level": 10
+      },
+      {
+        "id": 7,
+        "sku": "AP-007",
+        "name": "Lightweight Jacket",
+        "category": "Outerwear",
+        "price": "2299.00",
+        "stock": 15,
+        "reorder_level": 10
+      },
+      {
+        "id": 8,
+        "sku": "AP-008",
+        "name": "Cotton Kurta",
+        "category": "Ethnic",
+        "price": "999.00",
+        "stock": 22,
+        "reorder_level": 10
+      }
+    ]
+  },
+  "/api/orders/": {
+    "orders": [
+      {
+        "reference": "SF-0BB20BFD",
+        "customer": "Demo Retailer B",
+        "product": "Everyday Denim",
+        "quantity": 2,
+        "total": "3198.00"
+      },
+      {
+        "reference": "SF-4DE272FB",
+        "customer": "Demo Retailer A",
+        "product": "Classic Cotton Shirt",
+        "quantity": 3,
+        "total": "2397.00"
+      }
+    ]
+  },
+  "/api/summary/": {
+    "products": 8,
+    "units": 262,
+    "inventory_value": "235038.00",
+    "low_stock": 2,
+    "orders": 2,
+    "sales": "5595.00"
+  }
+}

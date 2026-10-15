@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "esbuild": "^0.28.2",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "name": "stockflow-portfolio",
+  "private": true,
+  "scripts": {
+    "build": "esbuild src.jsx --bundle --minify --outfile=dist/app.js"
+  }
+}
