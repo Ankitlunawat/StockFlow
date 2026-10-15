@@ -37,5 +37,8 @@ The built assets are served by Django in local development. API examples are in 
 ## Example workflow
 Search for a product, record an order, observe the reduced quantity, try ordering more than available stock, and export the inventory CSV.
 
+## Real interface walkthrough
+Follow [the recording guide](docs/WALKTHROUGH.md) to capture orders, stock updates and CSV export using the real running application. The guide includes expected results and an acceptance checklist. Recording remains pending.
+
 ## Current scope
 Self-created local prototype with fictional products and customers, not paid client work. Backend tests verify stock reduction, overselling prevention, invalid quantities, duplicate SKUs, CSV export and CSRF. A genuine browser UI walkthrough is still pending. Login, roles, payments, production deployment, comprehensive input hardening and browser end-to-end tests are not included. Do not expose this local development configuration publicly.
